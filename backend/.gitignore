@@ -1,0 +1,38 @@
+# Ignore virtual environment folders
+/venv/
+
+# Ignore database files in the app/db directory
+/app/db/*
+
+# It might be good to also ignore any .sqlite files if you're using SQLite
+*.sqlite
+*.sqlite3
+
+# General Python ignores
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# pyenv
+.python-version
+
